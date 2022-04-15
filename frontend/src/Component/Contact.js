@@ -8,7 +8,7 @@ function Contact() {
             <div className='contactUs_container'>
                 <form action="" className="contact_form">
                     <div className="head">
-                        <h2> Contact Us<br /><span style={{fontSize:"2.4rem"}}>Lorem ipsum dolor sit amet consectetur.</span></h2>
+                        <h2> Contact Us<br /><span style={{fontSize:"2.rem"}}>Lorem ipsum dolor sit amet consectetur.</span></h2>
                     </div>
                     <div className="contact_input">
                          <input type="text" className='Uname' placeholder='Enter Your Name'/>

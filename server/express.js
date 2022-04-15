@@ -15,6 +15,8 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+
+
 // register
 
 app.post("/register", (req, res) => {
@@ -60,7 +62,7 @@ app.post("/signIn", async (req, res) => {
   const { email, password, cpassword } = req.body;
 
   if (!email || !password || !cpassword) {
-    return res.status(422).json({ message: "please fill detauls properly" })
+    return res.status(422).json({ message: "please fill details properly" })
   }
 
   //checking email exist or not
